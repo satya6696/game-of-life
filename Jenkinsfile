@@ -1,7 +1,7 @@
 pipeline {
     agent {
-        {
-            label "QA"
+        node {
+        label "built-in"
         customWorkspace "/media/project"
     }
     }
