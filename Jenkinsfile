@@ -1,6 +1,9 @@
 pipeline {
-    agent any {
+    agent {
+        {
+            label "QA"
         customWorkspace "/media/project"
+    }
     }
     stages {
         stage ('building project'){
